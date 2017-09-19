@@ -36,21 +36,6 @@ public class GoogleStartPageTest {
 		driver.quit();
 	}
 
-	// @Test
-	// public void pageTitleIsNotNull() throws MalformedURLException {
-	// 	WebElement element = driver.findElement(By.name("q"));
-	// 	element.sendKeys("Cheese!");
-	// 	element.submit();
-	// 	assertTrue(driver.getTitle() != null);
-	// }
-
-	// @Test
-	// public void pageTitleContainsGoogle() throws MalformedURLException {
-	// 	WebElement element = driver.findElement(By.name("q"));
-	// 	element.sendKeys("Cheese!");
-	// 	element.submit();
-	// 	assertTrue(driver.getTitle().contains("Google"));
-	// }
 
 	@Test
 	public void pageBodyIsNotNull() throws MalformedURLException {
@@ -58,10 +43,5 @@ public class GoogleStartPageTest {
 		assertTrue(bodyText != null);
 	}
 
-	// @Test
-	// public void pageBody2IsNotNull() throws MalformedURLException {
-	// 	String bodyText2 = driver.findElement(By.XPath("//html/body")).Text;
-	// 	assertTrue(bodyText2 != null);	
-	// }
 
 }
